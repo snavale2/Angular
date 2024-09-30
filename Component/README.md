@@ -1,6 +1,3 @@
-Here’s a README section that you can add to your GitHub repository for the commit where you created the "first" component and demonstrated different ways to include it. You can also include a placeholder for your screenshot.
-
----
 
 # Angular Component - "First"
 
@@ -76,5 +73,3 @@ Below is an example of how to include the component within a template:
 ![Screenshot of the Application](Component\component.png)
 
 ---
-
-Feel free to adjust the content or formatting to match your style! If you need help with anything else, let me know!
