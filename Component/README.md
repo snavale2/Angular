@@ -73,7 +73,7 @@ Below is an example of how to include the component within a template:
 
 ## Screenshot
 
-![Screenshot of the Application](Component\component.png)
+![Screenshot of the Application](.\Component\component.png)
 
 ---
 
