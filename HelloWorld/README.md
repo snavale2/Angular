@@ -1,27 +1,58 @@
-# HelloWorld
+Here's a concise note you can add to your GitHub repository for installing Angular:
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
+---
 
-## Development server
+# Angular Installation Guide
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Prerequisites
 
-## Code scaffolding
+Ensure you have **Node.js** and **npm** installed on your machine. You can verify this by running the following commands:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```bash
+node -v
+npm -v
+```
 
-## Build
+If not installed, download them from [Node.js official website](https://nodejs.org/).
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Step 1: Install Angular CLI
 
-## Running unit tests
+Install Angular CLI globally using npm:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+npm install -g @angular/cli
+```
 
-## Running end-to-end tests
+To verify the installation, run:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+ng version
+```
 
-## Further help
+## Step 2: Create a New Angular Project
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Create a new Angular project using the following command:
+
+```bash
+ng new my-angular-app
+```
+
+Follow the prompts to configure the project (e.g., choose routing, stylesheet format).
+
+## Step 3: Navigate to the Project
+
+Move to the project directory:
+
+```bash
+cd my-angular-app
+```
+
+## Step 4: Run the Application
+
+Start the development server using:
+
+```bash
+ng serve
+```
+
+Open your browser and navigate to `http://localhost:4200` to view the running application.
