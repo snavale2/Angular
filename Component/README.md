@@ -1,27 +1,80 @@
-# Component
+Here’s a README section that you can add to your GitHub repository for the commit where you created the "first" component and demonstrated different ways to include it. You can also include a placeholder for your screenshot.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
+---
 
-## Development server
+# Angular Component - "First"
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Overview
 
-## Code scaffolding
+In this step, I created a new Angular component named **FirstComponent**. This component showcases three different methods of including components in Angular applications:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. **Custom HTML Tag**
+2. **CSS Class**
+3. **Attribute Directive**
 
-## Build
+## Component Code
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Here’s the code for the `FirstComponent`:
 
-## Running unit tests
+```typescript
+import { Component } from '@angular/core';
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+@Component({
+  selector: 'app-first',  // Custom HTML tag
+  // selector: '.app-first',  // Adding as a CSS class
+  // selector: '[app-first]',   // Adding as an attribute
+  templateUrl: './first.component.html',
+  styleUrls: ['./first.component.css'
+})
+export class FirstComponent {
+}
+```
 
-## Running end-to-end tests
+## Including the Component
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+You can include the `FirstComponent` in your application using any of the following methods:
 
-## Further help
+### 1. Using Custom HTML Tag
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```html
+<app-first></app-first>  
+```
+
+### 2. Using CSS Class
+
+```html
+<!-- <div class="app-first"></div> -->
+```
+
+### 3. Using Attribute Directive
+
+```html
+<!-- <div app-first></div> -->
+```
+
+## Example Usage
+
+Below is an example of how to include the component within a template:
+
+```html
+<div style="text-align: center;">
+  <h1>Welcome to Angular</h1>
+  
+  <!-- Adding component as custom HTML tag -->
+  <app-first></app-first>  
+  
+  <!-- Adding component as a CSS class -->
+  <!-- <div class="app-first"></div> -->
+
+  <!-- Adding component as an attribute -->
+  <!-- <div app-first></div> -->
+</div>
+```
+
+## Screenshot
+
+![Screenshot of the Application](Component\component.png)
+
+---
+
+Feel free to adjust the content or formatting to match your style! If you need help with anything else, let me know!
