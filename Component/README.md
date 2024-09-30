@@ -40,13 +40,13 @@ You can include the `FirstComponent` in your application using any of the follow
 ### 2. Using CSS Class
 
 ```html
-<!-- <div class="app-first"></div> -->
+<div class="app-first"></div>
 ```
 
 ### 3. Using Attribute Directive
 
 ```html
-<!-- <div app-first></div> -->
+<div app-first></div>
 ```
 
 ## Example Usage
@@ -70,6 +70,6 @@ Below is an example of how to include the component within a template:
 
 ## Screenshot
 
-![Screenshot of the Application](.\Component\component.png)
+![Screenshot of the Application](./component.png)
 
 ---
