@@ -21,7 +21,7 @@ import { Component } from '@angular/core';
   // selector: '.app-first',  // Adding as a CSS class
   // selector: '[app-first]',   // Adding as an attribute
   templateUrl: './first.component.html',
-  styleUrls: ['./first.component.css'
+  styleUrls: ['./first.component.css']
 })
 export class FirstComponent {
 }
