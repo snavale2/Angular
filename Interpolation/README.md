@@ -58,6 +58,6 @@ export class TestComponent {
 
 ## Screenshot
 
-![Screenshot of Interpolation Example](path_to_your_screenshot.png)
+![Screenshot of Interpolation Example](./interpolation.png)
 
 > Update `path_to_your_screenshot.png` with the actual path to your screenshot file.
